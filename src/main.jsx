@@ -18,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route index element={<Home></Home>} ></Route>
       <Route path='clientes' element={<Clientes></Clientes>}></Route>
       <Route path='productos' element={<Productos></Productos>}></Route>
+     {/*  <Route path='error' element={<Error></Error>}></Route> */}
       <Route path='*' element={<Navigate to="/"></Navigate>}></Route>
       </Route>
      
